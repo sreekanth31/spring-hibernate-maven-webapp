@@ -18,7 +18,9 @@
 		<mockito.version>1.10.19</mockito.version>
 		<h2.version>1.4.187</h2.version>
 		<dbunit.version>2.2</dbunit.version>
-	</properties>
+	    <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
 
 	<dependencies>
 		<!-- Spring -->
@@ -151,11 +153,11 @@
 		</plugin> 	
             </plugins>
 	</build>
-	<distributionManagement>
+	<!--<distributionManagement>
         <repository>
             <id>releases</id>
             <url>http://35.231.243.118:8081/nexus/content/repositories/releases/</url>
         </repository>
-    	</distributionManagement>
+    	</distributionManagement> -->
 </project>
 
